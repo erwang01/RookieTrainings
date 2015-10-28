@@ -7,7 +7,7 @@ public class MakeMath {
 		// yourArray.length, then it will set the element to i at 
 		// the index of yourArray that is equal to i
 		// During this, print your array
-		for(int i=0;i < array.length; i++)
+		for(int i = 0; i < array.length; i++)
 		{
 			System.out.println(array[i]);
 		}
@@ -16,10 +16,10 @@ public class MakeMath {
 		
 		// for each in yourArray, add 1
 		// During this, print yourArray
-		for(int i=0;i < array.length; i++)
+		for(int each : array)
 		{
-			array[i] += 1;
-			System.out.println(array[i]);
+			each += 1;
+			System.out.println(each);
 		}
 		
 		System.out.println("onto next");
@@ -27,9 +27,11 @@ public class MakeMath {
 		// create an integer x with value 0
 		// while x is less than yourArray, add one to x
 		// during this, print x
-		for(int x = 0; x < array.length; x++)
+		int x = 0;
+		while( x < array.length)
 		{
 			System.out.println(x);
+			x++;
 		}
 		
 		System.out.println("onto next");
